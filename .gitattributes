@@ -1,0 +1,4 @@
+# Keep every text file byte-exact on checkout.
+# The skill contract requires the first line to be a literal "---";
+# CRLF translation would break discovery on a fresh clone.
+* -text

@@ -1,0 +1,5 @@
+# 注册 CHANGE_ME provider，不改动 profile 的默认模型。
+# entry id 同时是 settings namespace；排查时换成全新 id 可绕过「失败按 id 缓存」。
+- insert:
+    - id: llm-CHANGE_ME
+      name: dsh-connect-CHANGE_ME
